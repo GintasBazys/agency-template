@@ -52,7 +52,7 @@ const Header = () => {
 							</li>
 							<li>
 								<Link
-									href="/about"
+									href="/aboutus"
 									className="block py-2 px-3 text-secondary lg:rounded border-b border-primary lg:border-0 hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0">
 									About
 								</Link>
