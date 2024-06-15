@@ -22,7 +22,7 @@ const Footer = () => {
 							<br /> From SEO to social media, we've got you covered.
 						</p>
 						<form action="#" className=" max-w-md">
-							<small className="text-sm text-white inline-block mb-2">Sign up to our newsletter:</small>
+							<label	htmlFor="email" className="text-sm text-white inline-block mb-2">Sign up to our newsletter:</label>
 							<div className="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
 								<div className="relative w-full">
 									<label
