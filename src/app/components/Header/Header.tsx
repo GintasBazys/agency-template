@@ -7,7 +7,7 @@ const Header = () => {
 			<nav className="bg-white border-b border-gray-200 shadow-xl">
 				<div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 					<Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                        <Image src="/logos/logo_main.svg" width={120} height={60} alt="Logo" title="Logo" priority />
+                        <Image src="/logos/logo_black.svg" width={120} height={60} alt="Logo" title="Logo" priority />
 					</Link>
 					<div className="flex lg:order-2 space-x-3 lg:space-x-0 rtl:space-x-reverse">
 						<Link
