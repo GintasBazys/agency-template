@@ -12,6 +12,8 @@ Agency template
 
 5. Newsletter integration using resend
 
-6. Cookiebot and analytics, google map
+6. Animations
 
-7. PWA support
+7. Cookiebot and analytics, google map
+
+8. PWA support

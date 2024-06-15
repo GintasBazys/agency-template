@@ -29,7 +29,7 @@ export default function RootLayout({
 				<Header />
 				{children}
 				<Footer />
-				<Script strategy="afterInteractive" src="./flowbite.min.js"></Script>
+				<Script strategy="beforeInteractive" src="./flowbite.min.js"></Script>
 			</body>
 		</html>
 	);
