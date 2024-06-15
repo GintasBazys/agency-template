@@ -8,8 +8,8 @@ import Script from "next/script";
 const comme = Comme({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	title: "Agency template",
-	description: "Transform your online presence with our expert web services. We offer innovative website design, development, SEO, and digital marketing solutions to help your business thrive in the digital age. Partner with us for exceptional results and a seamless digital experience.",
+	title: "NovaWave | Main",
+	description: "NovaWave Digital drives your brand forward with innovative SEO and social media solutions. Our team of experts is dedicated to enhancing your digital presence and achieving remarkable results.",
 };
 
 export default function RootLayout({
