@@ -13,7 +13,7 @@ const Privacy = () => {
 				<h1 className="text-4xl font-bold mb-4">Privacy Policy</h1>
 
 				<p className="mb-4">
-					Your privacy is important to us. It is NovaWave Digital's policy to respect your privacy regarding
+					Your privacy is important to us. It is NovaWave Digital&apos;s policy to respect your privacy regarding
 					any information we may collect from you across our website,{" "}
 					<a href="https://www.example.com">https://www.example.com</a>, and other sites we
 					own and operate.

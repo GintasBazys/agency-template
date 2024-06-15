@@ -13,7 +13,7 @@ const BannerComponent = () => {
 					</h1>
 					<p className="text-white font-medium mb-5">
 						Partner with our experts to enhance your digital footprint.
-						<br /> From SEO to social media, we've got you covered.
+						<br /> From SEO to social media, we&apos;ve got you covered.
 					</p>
 					<Link className=" text-white rounded-lg py-4 px-8 font-semibold inline-block mt-2 transition-all duration-500 hover:text-gradient border-white border-2" href="/aboutus">
 						<span>Learn more</span>

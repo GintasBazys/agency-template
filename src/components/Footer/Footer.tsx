@@ -19,7 +19,7 @@ const Footer = () => {
 						</Link>
 						<p className="text-white font-medium my-5">
 							Partner with our experts to enhance your digital footprint.
-							<br /> From SEO to social media, we've got you covered.
+							<br /> From SEO to social media, we&apos;ve got you covered.
 						</p>
 						<form action="#" className=" max-w-md">
 							<label	htmlFor="email" className="text-sm text-white inline-block mb-2">Sign up to our newsletter:</label>
