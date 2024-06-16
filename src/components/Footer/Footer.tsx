@@ -40,7 +40,7 @@ const Footer = () => {
 										</svg>
 									</div>
 									<input
-										className="block p-3 pl-10 w-full text-sm text-white rounded-lg border sm:rounded-none sm:rounded-l-lg bg-transparent border-white border-r-0 placeholder-gray-400"
+										className="block p-3 pl-10 w-full text-sm text-white rounded-lg border sm:rounded-none sm:rounded-l-lg bg-transparent border-white sm:border-r-0 placeholder-gray-400"
 										placeholder="Enter your email"
 										type="email"
 										id="email"
