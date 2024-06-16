@@ -1,8 +1,10 @@
 #faqAccordion {
     border: none;
+    border-bottom: 1px solid #040046;
+    border-radius: 0;
 }
 #faqAccordion h2 {
-    font-weight: 700;
+    font-weight: 600;
     color: #040046;
 }
 #faqAccordion button {
