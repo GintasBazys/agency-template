@@ -30,8 +30,8 @@ const AboutColumnsComponent = () => {
 								"Pay-Per-Click Advertising",
 								"Web Development",
 								"Analytics and Reporting",
-							].map((item, index) => (
-								<li key={index} className="flex items-center space-x-2">
+							].map((item) => (
+								<li key={item} className="flex items-center space-x-2">
 									<svg
 										className="h-6 w-6 text-secondary"
 										xmlns="http://www.w3.org/2000/svg"

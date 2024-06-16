@@ -8,6 +8,19 @@ const nextConfig = {
 			},
 		],
 	},
+	async headers() {
+		return [
+			{
+				source: "/robots.txt",
+				headers: [
+					{
+						key: "cache-control",
+						value: "max-age=0",
+					},
+				],
+			},
+		];
+	},
 	experimental: {
 		reactCompiler: {
 			compilationMode: "annotation",
