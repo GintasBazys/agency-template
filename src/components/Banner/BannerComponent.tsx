@@ -15,7 +15,7 @@ const BannerComponent = () => {
 						Partner with our experts to enhance your digital footprint.
 						<br /> From SEO to social media, we&apos;ve got you covered.
 					</p>
-					<Link className=" text-white rounded-lg py-4 px-8 font-semibold inline-block mt-2 transition-all duration-500 hover:text-gradient border-white border-2" href="/aboutus">
+					<Link className=" text-white rounded-lg py-4 px-8 font-semibold inline-block mt-2 transition-all duration-500 hover:text-gradient border-white border-2" href="/services">
 						<span>Our services</span>
 					</Link>
 				</div>

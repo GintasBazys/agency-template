@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer = () => {
 	return (
-		<footer className="bg-secondary py-8 px-4 lg:p-28 w-full">
+		<footer className="bg-secondary py-8 px-4 lg:p-14 w-full">
 			<div className="container mx-auto max-w-7xl">
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
 					<div>
@@ -14,7 +14,6 @@ const Footer = () => {
 								height={60}
 								alt="Logo"
 								title="Logo"
-								priority
 							/>
 						</Link>
 						<p className="text-white font-medium my-5">
@@ -41,7 +40,7 @@ const Footer = () => {
 										</svg>
 									</div>
 									<input
-										className="block p-3 pl-10 w-full text-sm text-white rounded-lg border sm:rounded-none sm:rounded-l-lg bg-gray-700 border-gray-600 placeholder-gray-400 focus:ring-primary-500 focus:border-primary-500"
+										className="block p-3 pl-10 w-full text-sm text-white rounded-lg border sm:rounded-none sm:rounded-l-lg bg-transparent border-white border-r-0 placeholder-gray-400"
 										placeholder="Enter your email"
 										type="email"
 										id="email"
@@ -51,14 +50,14 @@ const Footer = () => {
 								<div>
 									<button
 										type="submit"
-										className="py-3 px-5 w-full text-sm font-medium text-center text-white rounded-lg border cursor-pointer bg-primary-700 border-primary-600 sm:rounded-none sm:rounded-r-lg hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+										className="py-3 px-5 w-full text-sm text-center text-gradient font-bold rounded-lg border cursor-pointer bg-primary-700 border-primary-600 sm:rounded-none sm:rounded-r-lg hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
 										Subscribe
 									</button>
 								</div>
 							</div>
 							<div className="mx-auto max-w-screen-sm text-sm text-left text-gray-300">
 								We care about the protection of your data.{" "}
-								<Link href="#" className="font-medium underline text-white hover:text-gradient">
+								<Link href="/privacy" className="font-medium underline text-white hover:text-gradient">
 									Read our Privacy Policy
 								</Link>
 								.
@@ -67,10 +66,10 @@ const Footer = () => {
 					</div>
 					<div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
 						<div className="flex flex-col">
-							<h5 className=" text-white font-bold text-base mb-2 w-fit">
+							<strong className=" text-white font-bold text-base mb-2 w-fit">
 								RESOURCES
 								<hr />
-							</h5>
+							</strong>
 							<Link href="/services" className="text-white text-base hover:text-gradient">
 								Services
 							</Link>
@@ -88,9 +87,9 @@ const Footer = () => {
 							</Link>
 						</div>
 						<div className="flex flex-col mt-4 sm:mt-0">
-							<h5 className=" text-white font-bold text-base mb-2 w-fit">
+							<strong className=" text-white font-bold text-base mb-2 w-fit">
 								FOLLOW US <hr />
-							</h5>
+							</strong>
 							<Link
 								href="https://facebook.com"
 								target="_blank"
@@ -107,9 +106,9 @@ const Footer = () => {
 							</Link>
 						</div>
 						<div className="flex flex-col mt-4 sm:mt-6 xl:mt-0">
-							<h5 className=" text-white font-bold text-base mb-2 w-fit">
+							<strong className=" text-white font-bold text-base mb-2 w-fit">
 								LEGAL <hr />
-							</h5>
+							</strong>
 							<Link href="/privacy" target="_blank" className="text-white text-base hover:text-gradient">
 								Privacy
 							</Link>

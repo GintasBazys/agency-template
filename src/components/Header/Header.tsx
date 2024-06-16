@@ -35,7 +35,6 @@ const Header = () => {
 					<div className="flex lg:order-2 space-x-3 lg:space-x-0 rtl:space-x-reverse">
 						<Link
 							href="/contact"
-							role="button"
 							className="text-white bg-secondary hover:bg-primary focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center">
 							Contact us
 						</Link>
@@ -64,7 +63,7 @@ const Header = () => {
 					<div
 						className="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1"
 						id="navbar-sticky" ref={navbarEl}>
-						<ul className="flex flex-col p-4 px-0 lg:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 lg:space-x-8 rtl:space-x-reverse lg:flex-row lg:mt-0 lg:border-0 lg:bg-white">
+						<ul className="flex flex-col p-4 px-0 lg:p-0 lg:mt-4 font-medium border border-gray-100 rounded-lg lg:space-x-8 rtl:space-x-reverse lg:flex-row lg:border-0 lg:bg-white">
 							<li>
 								<Link
 									href="/services"
