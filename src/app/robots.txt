@@ -1,3 +1,2 @@
-# Block all crawlers
 User-agent: *
-Disallow: /
+Allow: /
