@@ -63,7 +63,7 @@ const Header = () => {
 					<div
 						className="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1"
 						id="navbar-sticky" ref={navbarEl}>
-						<ul className="flex flex-col p-4 px-0 lg:p-0 lg:mt-4 font-medium border border-gray-100 rounded-lg lg:space-x-8 rtl:space-x-reverse lg:flex-row lg:border-0 lg:bg-white">
+						<ul className="flex flex-col p-4 px-0 lg:p-0 font-medium border border-gray-100 rounded-lg lg:space-x-8 rtl:space-x-reverse lg:flex-row lg:border-0 lg:bg-white">
 							<li>
 								<Link
 									href="/services"
