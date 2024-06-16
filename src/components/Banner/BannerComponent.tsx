@@ -16,7 +16,7 @@ const BannerComponent = () => {
 						<br /> From SEO to social media, we&apos;ve got you covered.
 					</p>
 					<Link className=" text-white rounded-lg py-4 px-8 font-semibold inline-block mt-2 transition-all duration-500 hover:text-gradient border-white border-2" href="/aboutus">
-						<span>Learn more</span>
+						<span>Our services</span>
 					</Link>
 				</div>
 				<div className="relative">

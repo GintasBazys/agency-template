@@ -62,7 +62,7 @@ const Privacy = () => {
 					<li>By email: privacy@example.com</li>
 					<li>
 						By visiting this page on our website:{" "}
-						<a href="https://www.privacy.com/contact">Contact Us</a>
+						<a href="https://www.example.com/contact">Contact Us</a>
 					</li>
 				</ul>
 			</section>

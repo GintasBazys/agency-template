@@ -3,7 +3,6 @@ import { Comme } from "next/font/google";
 import "./globals.css";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
-import Script from "next/script";
 
 const comme = Comme({ subsets: ["latin"] });
 
@@ -29,7 +28,6 @@ export default function RootLayout({
 				<Header />
 				{children}
 				<Footer />
-				<Script strategy="beforeInteractive" src="./flowbite.min.js"></Script>
 			</body>
 		</html>
 	);

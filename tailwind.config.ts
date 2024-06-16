@@ -26,6 +26,7 @@ const config: Config = {
 		},
 	},
 	plugins: [
+		require("flowbite/plugin"),
 		function ({ addUtilities }: PluginAPI) {
 			addUtilities({
 				".bg-gradient": {
