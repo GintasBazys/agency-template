@@ -17,11 +17,11 @@ interface PricingCardProps {
 const PricingCard: React.FC<PricingCardProps> = ({ plan }) => (
 	<div className="relative flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-secondary rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
 		{plan.bestChoice && (
-			<div className="absolute top-0 right-0 bg-gradient-to-r from-primary to-secondary text-white text-xs font-extrabold px-4 py-1 rounded-bl-lg">
+			<div className="absolute top-0 right-0 bg-gradient-to-r from-pink-500 to-yellow-500 text-white text-xs font-extrabold px-4 py-1 rounded-bl-lg">
 				BEST CHOICE
 			</div>
 		)}
-		<strong className="mb-4 text-2xl text-gradient font-bold">{plan.title}</strong>
+		<strong className={`mb-4 ${plan.bestChoice ? "mt-3 lg:mt-0" : ""} text-2xl text-gradient font-bold`}>{plan.title}</strong>
 		<p className="text-white sm:text-lg">{plan.description}</p>
 		<div className="flex justify-center items-baseline my-8">
 			<span className="mr-2 text-5xl text-white font-bold">{plan.price}</span>
