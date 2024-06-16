@@ -17,7 +17,7 @@ const FaqCardComponent: React.FC<FaqCardComponentProps> = ({ faqs }) => {
 			{faqs.map(({ id, question, answer }) => (
 				<AccordionPanel key={id}>
 					<AccordionTitle className="text-bold text-primary border-b border-primary">{question}</AccordionTitle>
-					<AccordionContent className="pt-0">
+					<AccordionContent className="pt-0 !border-t-0">
 						<p className="mb-2">{answer}</p>
 					</AccordionContent>
 				</AccordionPanel>
