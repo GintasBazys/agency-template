@@ -1,5 +1,11 @@
 import FaqCardComponent from "@/components/FAQ/FaqCardComponent";
 import { FAQS } from "@/constants/faqQuestions";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "NovaWave | FAQ",
+	description: "NovaWave Digital drives your brand forward with innovative SEO and social media solutions. Our team of experts is dedicated to enhancing your digital presence and achieving remarkable results.",
+};
 
 const FAQ = () => {
 
