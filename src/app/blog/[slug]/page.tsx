@@ -1,13 +1,11 @@
 import { getAllPosts, getPostBySlug } from "@/lib/mdx";
 import remarkGfm from "remark-gfm";
-import { PostData } from "@/utils/types";
 import { MDXRemote } from "next-mdx-remote-client/rsc";
 import { MDXRemoteOptions } from "next-mdx-remote-client/rsc";
 import { components } from "@/utils/components";
 
 interface PostPageProps {
     params: { slug: string };
-    post: PostData;
 }
 
 export async function generateStaticParams() {
@@ -26,7 +24,7 @@ export async function generateMetadata({ params }: PostPageProps) {
     };
 }
 
-export default async function PostPage({ params }: PostPageProps) {
+const PostPage = async ({ params }: PostPageProps) => {
     const { slug } = params;
     const { content } = await getPostBySlug(slug);
     const options: MDXRemoteOptions = {
@@ -37,7 +35,7 @@ export default async function PostPage({ params }: PostPageProps) {
     };
 
     return (
-        <main className="flex  flex-col items-center justify-between p-12 px-4 md:px-24">
+        <main className="flex flex-col items-center justify-between p-12 px-4 md:px-24">
             <section className="container max-w-7xl mx-auto px-4">
                 <MDXRemote
                     source={content}
@@ -47,4 +45,6 @@ export default async function PostPage({ params }: PostPageProps) {
             </section>
         </main>
     );
-}
+};
+
+export default PostPage;
