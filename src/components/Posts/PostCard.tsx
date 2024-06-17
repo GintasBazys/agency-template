@@ -20,7 +20,7 @@ const PostCard = ({ post }: { post: PostCardInterface }) => {
                 width={400}
                 height={400}
                 loading="lazy"
-                className="rounded-lg mb-4"
+                className="rounded-lg mb-4 w-full object-cover"
             />
             <h4 className="text-primary text-2xl font-bold mb-4">
                 {data.title}
