@@ -14,7 +14,7 @@ const LargeCardComponent = ({ title, description, image, link, linkText }: CardP
 				alt={title}
 				title={title}
 			/>
-			<div className="p-6 bg-secondary h-full">
+			<div className="p-6 bg-primary h-full">
 				<div>
 					<h2 className="text-xl text-gradient font-bold mb-2">{title}</h2>
 					<p className="text-white mb-4">{description}</p>

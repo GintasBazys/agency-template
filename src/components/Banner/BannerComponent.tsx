@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const BannerComponent = () => {
 	return (
-		<section className="bg-secondary py-8 px-6 lg:px-28 lg:py-14 w-full rounded-2xl max-w-7xl">
+		<section className="bg-primary py-8 px-6 lg:px-28 lg:py-14 w-full rounded-2xl max-w-7xl">
 			<div className=" grid grid-cols-1 lg:grid-cols-2 gap-6">
 				<div>
 					<h1 className="my-6 font-bold text-gradient text-4xl">

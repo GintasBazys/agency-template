@@ -35,13 +35,13 @@ const Header = () => {
 					<div className="flex lg:order-2 space-x-3 lg:space-x-0 rtl:space-x-reverse">
 						<Link
 							href="/contact"
-							className="text-white bg-secondary hover:bg-transparent hover:text-secondary focus:ring-4 border border-secondary focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center">
+							className="text-white bg-primary hover:bg-transparent hover:text-primary focus:ring-4 border border-primary focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center">
 							Contact us
 						</Link>
 						<button
 							onClick={handleMenu}
 							type="button"
-							className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-secondary rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
+							className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-primary rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
 							aria-controls="navbar-sticky">
 							<span className="sr-only">Open main menu</span>
 							<svg
@@ -67,28 +67,28 @@ const Header = () => {
 							<li>
 								<Link
 									href="/services"
-									className="block py-2 px-3 lg:rounded border-b border-primary lg:border-0 text-secondary  hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0">
+									className="block py-2 px-3 lg:rounded border-b border-primary lg:border-0 text-primary  hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0">
 									Services
 								</Link>
 							</li>
 							<li>
 								<Link
 									href="/aboutus"
-									className="block py-2 px-3 text-secondary lg:rounded border-b border-primary lg:border-0 hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0">
+									className="block py-2 px-3 text-primary lg:rounded border-b border-primary lg:border-0 hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0">
 									About
 								</Link>
 							</li>
 							<li>
 								<Link
 									href="/blog"
-									className="block py-2 px-3 text-secondary lg:rounded border-b border-primary lg:border-0 hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0">
+									className="block py-2 px-3 text-primary lg:rounded border-b border-primary lg:border-0 hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0">
 									Blog
 								</Link>
 							</li>
 							<li>
 								<Link
 									href="/faq"
-									className="block py-2 px-3 text-secondary lg:rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0 ">
+									className="block py-2 px-3 text-primary lg:rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0 ">
 									Faq
 								</Link>
 							</li>

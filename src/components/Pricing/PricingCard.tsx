@@ -15,7 +15,7 @@ interface PricingCardProps {
 }
 
 const PricingCard: React.FC<PricingCardProps> = ({ plan }) => (
-	<div className="relative flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-secondary rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+	<div className="relative flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-primary rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
 		{plan.bestChoice && (
 			<div className="absolute top-0 right-0 bg-gradient-to-r from-pink-500 to-yellow-500 text-white text-xs font-extrabold px-4 py-1 rounded-bl-lg">
 				BEST CHOICE

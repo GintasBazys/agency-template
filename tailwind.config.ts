@@ -12,8 +12,7 @@ const config: Config = {
 	theme: {
 		extend: {
 			colors: {
-				primary: "#0A5C71",
-				secondary: "#040046",
+				primary: "#040046",
 			},
 			backgroundImage: () => ({
 				"text-gradient": "linear-gradient(0deg, #6ed3f5 0%, #6b85f2 100%)",

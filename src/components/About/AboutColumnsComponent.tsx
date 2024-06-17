@@ -3,14 +3,14 @@ const AboutColumnsComponent = () => {
 		<section>
 			<div className="py-12 mx-auto max-w-7xl lg:py-16 px-0">
 				<div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-					<h3 className="mb-4 text-4xl tracking-tight font-bold text-secondary">About us</h3>
+					<h3 className="mb-4 text-4xl tracking-tight font-bold text-primary">About us</h3>
 					<p className="mb-5 sm:text-xl">
 						NovaWave Digital is dedicated to empowering businesses with cutting-edge digital marketing
 						strategies that drive growth and elevate online presence.
 					</p>
 				</div>
 				<div className="space-y-8 lg:grid lg:grid-cols-2 sm:gap-6 xl:gap-10 lg:space-y-0">
-					<div className="lg:border-r border-secondary">
+					<div className="lg:border-r border-primary">
 						<div>
 							<h3 className="text-lg font-bold mb-2">Overview</h3>
 							<p className="text-gray-700">
@@ -33,7 +33,7 @@ const AboutColumnsComponent = () => {
 							].map((item) => (
 								<li key={item} className="flex items-center space-x-2">
 									<svg
-										className="h-6 w-6 text-secondary"
+										className="h-6 w-6 text-primary"
 										xmlns="http://www.w3.org/2000/svg"
 										viewBox="0 0 20 20"
 										fill="currentColor">

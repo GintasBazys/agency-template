@@ -9,7 +9,7 @@ const TestimonialsComponent = () => {
 				{REVIEWS?.map((review, index) => (
 					<div
 						key={index}
-						className="slide w-[80vw] shrink-0 rounded-lg border border-secondary p-8 text-white sm:p-10 md:w-[43vw] xl:w-[30rem] select-none">
+						className="slide w-[80vw] shrink-0 rounded-lg border border-primary p-8 text-white sm:p-10 md:w-[43vw] xl:w-[30rem] select-none">
 						<div className="flex flex-col justify-center items-center mb-2">
 							<Image
 								className="me-4 mb-3 object-contain rounded-full"
@@ -20,12 +20,12 @@ const TestimonialsComponent = () => {
 								alt={review.name}
 							/>
 							<div className="font-medium">
-								<p className="text-center text-secondary">
+								<p className="text-center text-primary">
 									{review.name}
-									<time dateTime={review.date} className="block text-sm text-secondary">
+									<time dateTime={review.date} className="block text-sm text-primary">
 										{new Date(review.date).toLocaleDateString()}
 									</time>
-									<span className="font-bold text-secondary">{review.company}</span>
+									<span className="font-bold text-primary">{review.company}</span>
 								</p>
 							</div>
 						</div>
@@ -44,7 +44,7 @@ const TestimonialsComponent = () => {
 								</svg>
 							))}
 						</div>
-						<blockquote className="mb-2 max-w-screen-md text-secondary text-center mx-auto">
+						<blockquote className="mb-2 max-w-screen-md text-primary text-center mx-auto">
 							{review.review}
 						</blockquote>
 						<Script

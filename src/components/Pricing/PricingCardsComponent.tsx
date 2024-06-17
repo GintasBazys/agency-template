@@ -6,7 +6,7 @@ const PricingCardsComponent = () => {
 		<section>
 			<div className="py-8 mx-auto max-w-7xl lg:py-16 px-0">
 				<div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-					<h3 className="mb-4 text-4xl tracking-tight font-bold text-secondary">
+					<h3 className="mb-4 text-4xl tracking-tight font-bold text-primary">
 						Tailored for dynamic business teams
 					</h3>
 					<p className="mb-5 sm:text-xl">
