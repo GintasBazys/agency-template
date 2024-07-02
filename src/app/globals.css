@@ -3,24 +3,24 @@
 @tailwind utilities;
 
 @layer base {
-  html {
-    @apply text-primary;
-  } 
+    html {
+        @apply text-primary;
+    }
 }
 .carousel {
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
 }
 
 .slide {
-  scroll-snap-align: start;
+    scroll-snap-align: start;
 }
-::-webkit-scrollbar{
-  -webkit-appearance: none;
-  width: .25rem;
-  height: .375rem;
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 0.25rem;
+    height: 0.375rem;
 }
-::-webkit-scrollbar-thumb{
-  border-radius: .25rem;
-  background-color: #040046;
+::-webkit-scrollbar-thumb {
+    border-radius: 0.25rem;
+    background-color: #040046;
 }

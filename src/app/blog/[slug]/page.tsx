@@ -4,6 +4,8 @@ import { MDXRemote } from "next-mdx-remote-client/rsc";
 import { MDXRemoteOptions } from "next-mdx-remote-client/rsc";
 import { components } from "@/utils/components";
 
+import "./post.css";
+
 interface PostPageProps {
     params: { slug: string };
 }
@@ -36,7 +38,7 @@ const PostPage = async ({ params }: PostPageProps) => {
 
     return (
         <main className="flex flex-col items-center justify-between p-12 px-4 md:px-24">
-            <section className="container max-w-7xl mx-auto px-4">
+            <section className="container max-w-7xl mx-auto px-4 static-page">
                 <MDXRemote
                     source={content}
                     options={options}

@@ -10,7 +10,7 @@ export default function Home() {
         <main className="flex flex-col items-center justify-between p-12 px-4 md:px-24">
             <BannerComponent />
             <LargeCardsComponent />
-            <AboutColumnsComponent />
+            <AboutColumnsComponent title="About us" />
             <PricingCardsComponent />
             <LatestPostsComponent />
             <TestimonialsComponent />

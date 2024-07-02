@@ -13,15 +13,17 @@ const PostCard = ({ post }: { post: PostCardInterface }) => {
                     {data.category}
                 </li>
             </ul>
-            <Image
-                src={data.image}
-                alt={data.title}
-                title={data.title}
-                width={400}
-                height={400}
-                loading="lazy"
-                className="rounded-lg mb-4 w-full object-cover"
-            />
+            <Link href={"/blog/" + slug}>
+                <Image
+                    src={data.image}
+                    alt={data.title}
+                    title={data.title}
+                    width={400}
+                    height={400}
+                    loading="lazy"
+                    className="rounded-lg mb-4 w-full object-cover"
+                />
+            </Link>
             <h4 className="text-primary text-2xl font-bold mb-4">
                 {data.title}
             </h4>

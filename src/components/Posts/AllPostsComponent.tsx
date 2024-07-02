@@ -1,9 +1,9 @@
-import { getLatestPosts } from "@/lib/mdx";
+import { getAllPosts } from "@/lib/mdx";
 import PostCard from "./PostCard";
 import { Post } from "@/utils/types";
 
-const LatestPostsComponent = async () => {
-    const posts: Post[] = await getLatestPosts();
+const AllPostsComponent = async () => {
+    const posts: Post[] = await getAllPosts();
     return (
         <section className="w-full pb-8">
             <div className="pt-12 mx-auto max-w-7xl px-0">
@@ -29,4 +29,4 @@ const LatestPostsComponent = async () => {
     );
 };
 
-export default LatestPostsComponent;
+export default AllPostsComponent;

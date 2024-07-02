@@ -1,11 +1,13 @@
-const AboutColumnsComponent = () => {
+const AboutColumnsComponent = ({ title }: { title?: string }) => {
     return (
         <section>
             <div className="py-12 mx-auto max-w-7xl lg:py-16 px-0">
                 <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-                    <h3 className="mb-4 text-4xl tracking-tight font-bold text-primary">
-                        About us
-                    </h3>
+                    {title && (
+                        <h3 className="mb-4 text-4xl tracking-tight font-bold text-primary">
+                            {title}
+                        </h3>
+                    )}
                     <p className="mb-5 sm:text-xl">
                         NovaWave Digital is dedicated to empowering businesses
                         with cutting-edge digital marketing strategies that
@@ -16,7 +18,7 @@ const AboutColumnsComponent = () => {
                     <div className="lg:border-r border-primary">
                         <div>
                             <h3 className="text-lg font-bold mb-2">Overview</h3>
-                            <p className="text-gray-700">
+                            <p>
                                 Since 2010, <b>NovaWave Digital</b> has been
                                 providing innovative digital marketing solutions
                                 to a wide range of industries. Our commitment to
@@ -53,7 +55,7 @@ const AboutColumnsComponent = () => {
                                             clipRule="evenodd"
                                         />
                                     </svg>
-                                    <span className="text-gray-700">
+                                    <span>
                                         {item}
                                     </span>
                                 </li>
@@ -66,7 +68,7 @@ const AboutColumnsComponent = () => {
                             <h3 className="text-lg font-bold mb-2">
                                 Background
                             </h3>
-                            <p className="text-gray-700">
+                            <p>
                                 By 2023, <b>NovaWave Digital</b> had expanded
                                 its client base to include over 200 businesses
                                 worldwide. Despite this growth, the company
@@ -82,7 +84,7 @@ const AboutColumnsComponent = () => {
                             <h3 className="text-lg font-bold mb-2">
                                 The challenge
                             </h3>
-                            <p className="text-gray-700">
+                            <p>
                                 <b>NovaWave Digital&apos;s</b> new digital
                                 strategy had to be implemented swiftly to keep
                                 pace with industry changes. The main challenge
