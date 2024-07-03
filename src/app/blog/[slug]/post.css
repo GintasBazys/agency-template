@@ -1,6 +1,7 @@
 .static-page h1,.static-page h2,.static-page h3,.static-page h4,.static-page h5,.static-page h6 {
     font-weight: 700;
     margin-bottom: 1rem;
+    line-height: normal;
 }
 .static-page h1 {
     font-size: 2.25rem;
@@ -25,13 +26,11 @@
     margin: 1rem 0;
 }
 .static-page a {
-    color: #4230ED;
+    color: #040046;
     transition: all 0.5s;
     font-weight: 600;
     display: inline-block;
-}
-.static-page a:hover {
-    color: #0D8CFF;
+    text-decoration: underline;
 }
 .static-page ul {
     list-style-type: disc;
@@ -64,4 +63,15 @@
 }
 .static-page iframe {
     aspect-ratio: 16 / 9;
+}
+@media screen and (max-width: 768px) {
+    .static-page h1 {
+        font-size: 2rem;
+    }
+    .static-page h2 {
+        font-size: 1.75rem;
+    }
+    .static-page h3 {
+        font-size: 1.5rem;
+    }
 }
