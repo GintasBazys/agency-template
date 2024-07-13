@@ -1,6 +1,12 @@
+import MapFormComponent from "@/components/Contact/MapFormComponent";
+import BannerComponent from "@/components/Services/BannerComponent";
+
 const Contact = () => {
     return (
-        <main className="flex  flex-col items-center justify-between p-12 px-4 md:px-24"></main>
+        <main className="flex  flex-col items-center justify-between pb-12">
+            <BannerComponent title="Contact Us" />
+            <MapFormComponent />
+        </main>
     );
 };
 
