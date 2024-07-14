@@ -1,13 +1,13 @@
-"use client";
-import { useEffect } from "react";
+import Script from "next/script";
 
 export default function YouTube({ id }: { id: string }) {
-    useEffect(() => {
-        import("@justinribeiro/lite-youtube");
-    }, []);
     return (
         <div>
-            {/* @ts-ignore */}
+            <Script
+                type="module"
+                src="https://unpkg.com/@justinribeiro/lite-youtube/lite-youtube.js"
+                strategy="lazyOnload"
+            />
             <lite-youtube videoid={id} autoload nocookie></lite-youtube>
         </div>
     );

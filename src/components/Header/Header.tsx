@@ -2,19 +2,10 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 
 const Header = () => {
-    const pathname = usePathname();
-
     const navbarEl = useRef<HTMLDivElement>(null);
-
-    useEffect(() => {
-        if (navbarEl.current) {
-            navbarEl.current.classList.add("hidden");
-        }
-    }, [pathname]);
 
     const handleMenu = () => {
         if (navbarEl.current?.classList.contains("hidden")) {
@@ -81,6 +72,11 @@ const Header = () => {
                         <ul className="flex flex-col p-4 px-0 lg:p-0 mt-4 lg:mt-0 font-medium border border-gray-100 rounded-lg lg:space-x-8 rtl:space-x-reverse lg:flex-row lg:border-0 lg:bg-white">
                             <li>
                                 <Link
+                                    onClick={() =>
+                                        navbarEl.current?.classList.add(
+                                            "hidden",
+                                        )
+                                    }
                                     href="/services"
                                     className="block py-2 px-3 lg:rounded border-b border-primary lg:border-0 text-primary  hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0"
                                 >
@@ -89,6 +85,11 @@ const Header = () => {
                             </li>
                             <li>
                                 <Link
+                                    onClick={() =>
+                                        navbarEl.current?.classList.add(
+                                            "hidden",
+                                        )
+                                    }
                                     href="/aboutus"
                                     className="block py-2 px-3 text-primary lg:rounded border-b border-primary lg:border-0 hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0"
                                 >
@@ -97,6 +98,11 @@ const Header = () => {
                             </li>
                             <li>
                                 <Link
+                                    onClick={() =>
+                                        navbarEl.current?.classList.add(
+                                            "hidden",
+                                        )
+                                    }
                                     href="/blog"
                                     className="block py-2 px-3 text-primary lg:rounded border-b border-primary lg:border-0 hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0"
                                 >
@@ -105,6 +111,11 @@ const Header = () => {
                             </li>
                             <li>
                                 <Link
+                                    onClick={() =>
+                                        navbarEl.current?.classList.add(
+                                            "hidden",
+                                        )
+                                    }
                                     href="/faq"
                                     className="block py-2 px-3 text-primary lg:rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-primary lg:p-0 "
                                 >

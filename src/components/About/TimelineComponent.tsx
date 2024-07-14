@@ -2,6 +2,7 @@
 
 import { Timeline } from "flowbite-react";
 import { HiCalendar } from "react-icons/hi";
+import "../../app/aboutus/timeline.css";
 
 const TimelineComponent = () => {
     return (
